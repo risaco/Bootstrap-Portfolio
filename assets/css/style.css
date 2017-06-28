@@ -1,24 +1,42 @@
+body {
+	background-image: url(img/../../images/light_grey/light_grey_@2X.jpg);
+}
+
 .layout {
 	width: 960px;
-	background-color: orange;
+	/*background-color: orange;*/
+	background-image: url(img/../../images/light_grey/light_grey_@2X.jpg);
+	box-sizing: border-box;
 }
 
 #masthead {
 	width: 960px;
 	border-bottom: 3px solid #777777;
-	background-color: yellow;
+	/*background-color: yellow;*/
 }
 
 #nameBox {
-	background-color: blue;
+	/*background-color: blue;*/
 	float: left;
 	margin-bottom: 0px;
 }
 
+/* Background Colors */
+#masthead, #nameBox, #navigation,
+#contentBox, #asideBox,
+#sectionTitle, #sectionContent,
+#asideTitle, #asideContent {
+	background-color: #ffffff
+}
+
 /* Font colors and families */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h5, h6 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-weight: bolder;
+}
+
+h2, h3 {
+	color: #4aaaa5;
 }
 
 p, #navigation {
@@ -35,7 +53,7 @@ h1 {
 }
 
 #navigation {
-	background-color: blue;
+	/*background-color: blue;*/
 	float: right;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -43,4 +61,127 @@ h1 {
 
 nav {
 	float: right;
+}
+
+
+/* Main Content Section ( houses Article and Aside) */
+
+#contentBox {
+	clear: both;
+	/*background-color: pink;*/
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
+
+}
+
+/* Featured Content Section */
+#sectionTitle {
+	/*background-color: green;*/
+	border-bottom: 2px solid #777777;
+	width: 90%;
+	margin: 0 auto 0 auto;
+}
+
+#sectionContent {
+	/*background-color: yellow;*/
+	width: 90%;
+	margin: 0 auto 0 auto;
+	padding-bottom: 20px;
+}
+
+/* About Me Page (index) */
+#profilePhoto {
+	float: left;
+	margin: 20px;
+	margin-left: 0px;
+	margin-bottom: 10px;
+}
+
+p {
+	font-size: 18px;
+	line-height: 27px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+p.para2 {
+	margin-top: 0px;
+}
+
+/* Aside */
+#asideBox {
+	/*background-color: lavender;*/
+	float: right;
+	margin-top: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#asideTitle {
+	/*background-color: green;*/
+	border-bottom: 1px solid #777777;
+	width: 90%;
+	margin: 0 auto 0 auto;
+}
+
+#asideContent {
+	/*background-color: yellow;*/
+	width: 90%;
+	margin: 0 auto 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.icons {
+	display: inline-block;
+  	max-width: 52px;
+  	max-height: 52px;
+  	width: auto;
+  	height: auto;
+}
+
+#icon3 {
+	box-sizing: border-box;
+	padding: 2px;
+
+}
+
+/* Footer */
+#footerArea {
+	clear: both;
+	width: 960px;
+	background-color: #777777;
+	border-top: 10px solid #4aaaa5;
+	padding: 20px;
+}
+
+footer {
+	text-align: center;
+	color: #ffffff;
+}
+
+/* Portfolio Page */
+#portfolio {
+	/*background-color: yellow;*/
+	margin-top: 30px;
+}
+
+img.work {
+	margin-bottom: 50px;
+}
+
+h4 {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: x-large;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: absolute;
+	width: 100%;
+	margin-top: -130px;
+
 }
